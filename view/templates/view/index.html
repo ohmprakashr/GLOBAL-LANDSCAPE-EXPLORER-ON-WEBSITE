@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+    {% load static %}
+    <style>
+    *{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Ubuntu', 
+    sans-serif;
+    overflow: hidden }
+ .site-headers{
+     width: 100%;
+     height: 100vh;
+     background: linear-gradient(68deg, #334298,#4099a7);
+     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);}
+ nav{
+     width: 100%; height: 100px; display: flex;}
+ .logo{ width: 55%; height: 100px; }
+ .logo img{max-width: 100%;max-height: 100%;padding-left: auto;}
+ .menu{ width: 60%; height: 100px; }
+ .menu ul {
+  width:100%; 
+  height: 100px; 
+ display: flex; 
+ position: relative;
+  left: 50%;
+  top:35%;
+             }
+ .menu ul li{ 
+        list-style: none; 
+        font-size: 25px; 
+        font-weight: bolder;
+        text-transform: uppercase; 
+        padding-left: 30px;
+    }
+ section{ 
+     color: #000000;
+    }
+ .wrapper-content{
+     text-align: center;
+     padding-top: 10%;
+     padding-bottom: 40%;
+     background-image: url('static/images/pollachi.jpeg') ;
+     background-size: calc(100%);
+ }
+ .wrapper-content 
+      h1{ 
+          font-size: 50px;
+          font-weight: 200px;
+          text-transform: uppercase;
+          color: black;
+         }
+ .wrapper-content
+  h2{
+      font-size: 30px;
+      padding: 20px 0; 
+      color: black;
+ }
+ .wrapper-content
+  h3{
+      font-size: 30px;
+      padding: 20spx 0; 
+      color: black;
+ }
+ .wrapper-content
+   h4{
+      font-weight: bold;
+      font-size: 30px;
+      padding: 20px 0; 
+      color:black;
+ }
+ 
+ .wholepage{
+     width: 900px;
+     margin: auto;
+     margin-right: auto;
+ }
+ input[type = text] {
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+                background: white;
+                outline: none;
+                border-radius: 50px;
+                border: 5px solid blue;
+                box-shadow: 0px 0px 30px blue;
+                height: 60px;
+                width: 300px;
+                font-size: 25px;
+                position: absolute;
+                top:15%;
+                right: 10%; 
+            }
+            input[type = text]:focus {
+                width: 30%;
+            }
+            
+</style>
+<body>
+	
+<div id="wholepage">
+<header class="site-headers">
+	<nav>
+		<div class="logo">
+			<img src="{% static 'images/logo of.png' %}">
+		  	<img src="{% static 'images/Capture.png' %}">
+		   </div> 
+		<div class="menu">
+		      <ul>
+                <li><a href="collections">Collections</a></li>
+		      	<li><a href="about">About Us</a></li>
+		      </ul>
+		</div>
+	</nav>
+         <section>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">           
+            <div  class="wrapper-content">
+         		<h1>THE MOST HISTORICAL PLACE IN POLLACHI</h1>
+         		<h2>OUR DUTY TO SERVE YOU THE BEST</h2>
+                <h3>AROUND POLLACHI</h3>
+         		<h4>WELCOME</h4>
+         	</div>
+         </section>
+     </header>
+    </div>
+  </body>
+</html>

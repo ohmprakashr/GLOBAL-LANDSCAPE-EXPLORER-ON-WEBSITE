@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	{% load static %}
+<style>  
+    body{
+	background:linear-gradient(55deg, #99ff99,#99ff99);
+	font-family: 'Righteous', cursive;
+
+}
+.Services{
+	margin: px auto;
+	text-align: center;
+}
+h1{
+	letter-spacing: 1px;
+}
+h1:after{
+	content: '';
+	background-color: blue;
+	display: block;
+	width: 150px;
+	height: 3px;
+	margin: 10px auto;
+}
+.row{
+	background:linear-gradient(64deg,#ff66ff,#4dffdb);
+}
+.icon{
+	font-size: 40px;
+	margin: 20px;
+	padding: 10px;
+	padding-left: 16%;
+	height: 80px;
+	width: 80px;
+	
+}
+h3{
+	font-weight: 900;
+	padding-left: 20%;
+	padding-right: 30%;
+	padding-top: 10%;
+}
+p{
+	padding-left: 20%;
+	padding-right: 30%;
+}
+.wrapper-content 
+   h4{
+	text-align: center;
+	padding-top: 1%;
+}
+.wrapper-content
+	h5{
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align:center;
+		
+	}
+.col-md-4
+h5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.center{
+	text-align: center;
+}
+*{
+	font-weight: 500;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+</style> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="styles3.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<body>
+	<div id="wholepage">	
+		<div class="container">
+		<div class="Services">
+			<h1>Our Services</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center">
+                   <div class="icon">
+					<img src="{% static 'images/Group-15-2.png' %}">
+					</div>
+					<h3>Our Love for Travel</h3>
+					<p>Sure we’re a bunch of Developers, Designers, Writers, Managers and Thinkers. But what connects us all is our love for travel. Relate to that? Swing by for a Mocha anytime!</p>
+				</div>
+				<div class="col-md-4 text-center">
+                    <div class="icon">
+					<img src="{% static 'images/Group-13-1.png' %}">
+					</div>
+					<h3>Building the Right Product</h3>
+					<p>We’ve made it our business to understand the travel business. And we realize how important it is for us to stay inspired so we can design the perfect product for you.</p>
+				</div>
+				    <div class="col-md-4 text-center">
+					<div class="icon">
+					<img src="{% static 'images/Group-14-1.png' %}">
+					</div>
+					<h3>Party Hard, Work Harder</h3>
+					<p>We party like crazy, but we know no bounds when we’re working. While many travel the world for inspiration, we find ours right here, in & around our office Sky Villa in Goa. 
+                    </p>
+				</div>
+			</div>
+	</div>
+	<hr>
+	<section>
+	<div class="wrapper-content">
+		<h4>About US</h4>
+		<p> <h5>An About Us page is a section on a website that provides information about a company, organization, or individual. It is an opportunity to tell your brand’s story, share your vision, history, values, and achievements, and introduce team members. This is where you build trust and credibility with customers.</p>
+		</h5>
+			<div class="row">
+
+            <div  class="col-md-4 text-center" style="padding-left: 50%; width: auto;">
+              	<p >
+                    <h5>
+					Support
+              		tamilanulagam@gmail.com
+              		Mobile No:+918248706321
+				</h5>
+                 </p1> 
+          
+              	</div>
+              	
+        </div>
+	</section>
+   </div>
+
+
+</body>
+</html>
